@@ -1,3 +1,7 @@
+<img width="1876" height="882" alt="ADVANCED_STUDENT_MANAGEMENT_DASHBOARD_SYSTEM" src="https://github.com/user-attachments/assets/40aff5ac-c549-4dc9-99f7-837b373bc039" />
+
+
+
 ````md
 # 📚 Advanced Student Management Dashboard System 🎓
 
