@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Absolute override for browser autofill defaults */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    /* Force an inset box shadow using your theme color to completely hide the browser's default white background */
+    -webkit-box-shadow: 0 0 0px 1000px #171717 inset !important;
+    box-shadow: 0 0 0px 1000px #171717 inset !important;
+    
+    /* Force the text color to remain solid white */
+    -webkit-text-fill-color: #ffffff !important;
+    
+    /* Keep the text cursor white */
+    caret-color: #ffffff;
+  }
+}
